@@ -12,7 +12,7 @@ void main() {
   testWidgets('home has a button', (WidgetTester tester) async {
     await tester.pumpWidget(makeTestableWidget(child: Home()));
 
-    final firstButtonFinder = find.text(Home.links.first);
+    final firstButtonFinder = find.text(Home.links1.first[1]);
 
     expect(firstButtonFinder, findsOneWidget);
   });

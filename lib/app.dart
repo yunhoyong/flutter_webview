@@ -10,7 +10,7 @@ class App extends StatelessWidget {
           primarySwatch: Colors.blue,
           fontFamily: "Arial",
           textTheme: TextTheme(
-              button: TextStyle(color: Colors.white, fontSize: 18.0),
+              button: TextStyle(color: Colors.white, fontSize: 10.0),
               title: TextStyle(color: Colors.red))),
       home: Home(),
     );
