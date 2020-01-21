@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'web_view_container.dart';
 
 class Home extends StatelessWidget {
-  static final links1 = [['Google','https://google.com'],['Naver','https://naver.com'],['Daum','https://daum.com']];
+  static final links1 = [['Google','https://google.com'],['Naver','https://naver.com'],['Daum','https://daum.net']];
   static final links2 = [['Apple','https://apple.com'],['Yahoo','https://yahoo.com'],['Microsoft','https://www.microsoft.com/']];
 
   @override
